@@ -399,7 +399,15 @@ textarea{
     top: 46px;
 }
 
-#imagemSpeak{
-    width: 450px;
-    margin-top: 15px;
+/* NavBar */
+
+.nav{
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 17px;
+}
+
+.center-icon{
+    position: flex;
+    transform: translate(38%, 5%) 
 }
