@@ -352,11 +352,11 @@ textarea{
   background-color: white !important;
   border: none !important;
   padding: 0 !important;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   }
 
 .card{
-    box-shadow: 0 2px 20px 0 rgba(110,130, 208, .18);
+    box-shadow: 0 2px 20px 0 transparent;
   }
 
 .btn-link{
@@ -368,7 +368,8 @@ textarea{
 }
 
 .card-body{
-    background: #e9eeff;
+    background: #1C2945;
+    color: #fff;
 }
 
 .btn-link:after {
@@ -376,11 +377,10 @@ textarea{
     width: 35px;
     font-size: 25px;
     text-align: center;
-    border-radius: 5px;
     right: 15px;
-    top: 11px;
+    top: 10px;
     position: absolute;
-    background: #e9eeff;
+    background: #fff;
 }
 
 .btn-link.collapsed:after{
