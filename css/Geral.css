@@ -230,11 +230,16 @@ input[type="submit"]:hover
 }
 
 #space{
-    color: #fff;
-    margin: 15px 0 25px 0;
-    background-color: #fff;
-    height: 0px;
-    width: 65%;
+    width: 0;
+}
+
+#space::after {
+    content: "";
+    border-top: 1px solid #fff;
+    width: 60%;
+    position: absolute;
+    top: 56%;
+    left: 20%;
 }
 
 .btn-Sing{
@@ -271,7 +276,8 @@ input[type="submit"]:hover
 textarea{
     border: 1px solid #fff;
     display: inline-block;
-    width: 300px;
+    width: 330px;
+    height: 120px;
     padding: 12px 10px;
     border-radius: 10px 20px ;
 }
@@ -367,11 +373,6 @@ textarea{
     text-decoration: none !important;
 }
 
-.card-body{
-    background: #1C2945;
-    color: #fff;
-}
-
 .btn-link:after {
     content: '\2212';
     width: 35px;
@@ -410,4 +411,60 @@ textarea{
 .center-icon{
     position: flex;
     transform: translate(38%, 5%) 
+}
+
+/*Denuncie*/
+
+#margin {
+    position: absolute;
+    margin-top: -200px;
+    left: 40%;
+    right: -20%;
+}
+
+.radio{
+    font-size: 24px;
+    font-weight: 500px;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    position: relative;
+    padding-left: 25px;
+}
+
+.radio + .radio{
+    margin-left: 18px;
+}
+
+.radio input[type="radio"]{
+    display: none;
+}
+
+.radio span{
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+.radio span::after{
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    display: block;
+    margin: -1px 0 0 6px ;
+    transform: translate(-50%, 50%) scale(0);
+    border-radius: 50%;
+
+    transition: 300ms ease-in-out 0s;
+}
+
+.radio input[type="radio"]:checked ~ span:after{
+    transform: translate(-50%, 50%) scale(1);
 }
