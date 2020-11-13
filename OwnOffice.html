@@ -57,56 +57,86 @@
                 <a class="nav-item nav-link text-light nav" data-toggle="modal" data-target="#staticBackdrop">  Perfil </a>
 
                 <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                  <div class="modal-dialog" style="width: 500px; height: 500px;">
-                    <div class="modal-content">
+                  <div class="modal-dialog">
+                    <div class="modal-content lead" style="font-size: 18px;">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                        <h5 class="modal-title text-center" id="staticBackdropLabel">Perfil</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
+
                       <div class="modal-body">
-                        <img src="..." class="card-img-top" alt="...">
+                        <div class="about-perfil">
+                          <div class="about-Img lead">
+                              <figure class="figure about-Img">
+                                <img src="imgs/App.webp" class="rounded-circle" style="width: 210px; height: 210px;">
+                              </figure>
+                          </div>
+                          <p class="text-center" style="font-size: 30px; color: #1C2945;"> Nome Aqui</p>
+                        </div>
+
+                        <div class="about-work">
+                          <div class="lead">
+                            <p class="number"> 10 </p>
+                            <p class="categ pt-4"> Trabalhos </p>
+                          </div>
+
+                          <div class="lead">
+                            <p class="number-2"> R$60,00 </p>
+                            <p class="categ-2 pt-4"> Hora</p>
+                          </div>
+
+                          <div id="HR-verdical"></div>
+                          <hr>
+                        </div>
+
+                        <div class="about-desc lead">
+                          <p> Nome completo </p>
+                          <p> Redide em <b style="color: #000;">São Paulo</b> </p>
+                          <p> Atual em <b style="color: #000;">Desenvolvimento de sites</b> </p>
+                          <p> Contato via 
+                            <a class="link" href="#"> Whatsapp</a>,
+                            <a class="link" href="#"> E-mail </a> e 
+                            <a class="link" href="#"> Telegram </a>
+                           </p>
+                        </div>
+                        <hr>
+
+                        <div class="about-rate">
+                          <h5>Avaliações</h5>
+                            <div class="card border border-secondary" style="width: 20rem; height: 11rem;">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some text to build on the card title and make up the bulk of the card's content.</p>
+                              </div>
+                            </div>
+                          <hr>
+                        </div>
+
                         <form>
-                          <div class="form-row">
-                            <div class="form-group col-md-6">
-                              <label for="inputNome">Nome</label>
-                              <input type="text" class="form-control" id="inputNome">
+                          <h2 class="pb-2"> Quer refazer sua senha ? </h2>
+                          <div class="about-form">
+                            <div class="form-row">
+                              <div class="form-group text-center">
+                                <label for="inputEmail">E-mail: </label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                              </div>
                             </div>
-                            <div class="form-group col-md-6">
-                              <label for="inputSobrenome">Sobrenome</label>
-                              <input type="text" class="form-control" id="inputSobrenome">
-                            </div>
-                          </div>
-                          <div class="form-row">
-                            <div class="form-group col-md-6">
-                              <label for="inputEmail4">E-mail</label>
-                              <input type="email" class="form-control" id="inputEmail4">
-                            </div>
-                            <div class="form-group col-md-6">
-                              <label for="inputSenha">Senha</label>
-                              <input type="password" class="form-control" id="inputSenha">
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <label for="inputEndereco">Endereço</label>
-                            <input type="text" class="form-control" id="inputEndereco">
-                          </div>
-                          <div class="form-row">
-                            <div class="form-group col-md-6">
-                              <label for="inputCidade">Cidade</label>
-                              <input type="text" class="form-control" id="inputCidade">
-                            </div>
-                            <div class="form-group col-md-4">
-                              <label for="inputEstado">Estado</label>
-                              <select id="inputEstado" class="form-control">
-                                <option selected>Escolha...</option>
-                                <option>...</option>
-                              </select>
-                            </div>
-                            <div class="form-group col-md-2">
-                              <label for="inputCEP">CEP</label>
-                              <input type="text" class="form-control" id="inputCEP">
+                          
+                              <div class="form-row">
+                                <div class="form-group text-center">
+                                  <label for="inputSenha">Senha: </label>
+                                  <input type="password" class="form-control" id="inputSenha">
+                                </div>
+                              </div>
+
+                            <div class="form-row">
+                              <div class="form-group text-center">
+                                <label for="inputEndereco"> Confirme Senha: </label>
+                                <input type="text" class="form-control" id="inputEndereco">
+                              </div>
                             </div>
                           </div>
                         </form>
@@ -121,7 +151,6 @@
 
                 <!-- Fim Modal : Perfil -->
             </ul>
-
             <ul class="navbar-nav ml-auto">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle mr-4 text-light text-font" data-toggle="dropdown" id="navDrop"> Social </a>
