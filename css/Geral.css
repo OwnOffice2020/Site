@@ -526,4 +526,14 @@ textarea{
 .sideBar:hover{
     color: #fff;
 }
->>>>>>> 6d0045ebc6329bdca6eba92b4fd8cda07b1b3918
+
+.about-Img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-form{
+    position: flex;
+    margin-left: 27.5%;
+}
