@@ -407,7 +407,7 @@ textarea{
 
 /* NavBar */
 
-.nav{
+.nav{ 
     margin-left: 7px;
     margin-right: 7px;
     font-size: 17px;
@@ -481,10 +481,6 @@ textarea{
     margin-right: 0;
 }
 
-<<<<<<< HEAD
-
-
-=======
 /*Termos e condições de uso*/
 
 .Title{
@@ -532,6 +528,66 @@ textarea{
 }
 .sideBar:hover{
     color: #fff;
+}
+
+/* Modal */
+
+#HR-verdical{
+    margin-right: 51%;
+    height: 100px;
+    border-right: 1px solid rgb(223, 223, 223);
+}
+
+.number{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: #1C2945;
+    font-size: 30px;
+    margin-top: 20px;
+    left: 20%;
+    right: 15%;
+}
+
+.categ{
+    position: absolute;
+    color:#979797;
+    font-size: 28px;
+    margin-top: 26px;
+    left: 12%;
+    right: 15%;
+}
+
+.number-2{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: #1C2945;
+    font-size: 30px;
+    margin-top: 20px;
+    left: 63%;
+    right: 60%;
+}
+
+.categ-2{
+    position: absolute;
+    color:#979797;
+    font-size: 26px;
+    margin-top: 28px;
+    left: 68%;
+    right: 70%;
+}
+
+.about-desc{
+    font-size: 16px;
+    color: #979797;
+    margin-left: 15px;
+}
+
+.link{
+    color: #000;
+}
+
+.link:hover{
+    color: #000;
 }
 
 .about-Img{
