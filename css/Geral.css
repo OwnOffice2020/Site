@@ -474,6 +474,13 @@ textarea{
     transform: translate(-50%, 50%) scale(1);
 }
 
+#Denuncie{
+    position: absolute;
+    margin-top: -480px;
+    left: 57.3%;
+    margin-right: 0;
+}
+
 <<<<<<< HEAD
 
 
