@@ -20,55 +20,165 @@
   <body style="background-color:  #1C2945;"> 
 
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg" style="background-color:  #1C2945;">
+    <nav class="navbar navbar-expand-lg flex-column flex-sm-row" style="background-color:  #1C2945;">
 
-          <div class="container">
-            <a class="navbar-brand h1 mb-0 text-light text-font" style="margin-right: 55px;" href="OwnOffice.html">
-              <img class="nav center-icon" src="imgs/teste.png" width="48" height="31">
-              OwnOffice
-            </a>
+        <div class="container">
+          <a class="navbar-brand h1 mb-0 text-light text-font" style="margin-right: 55px;" href="OwnOffice.html">
+            <img class="nav center-icon" src="imgs/teste.png" width="48" height="31">
+            OwnOffice
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSite">
+
+            <ul class="navbar-nav mr-auto">
+                <a class="nav-item nav-link text-light nav" href="#"> Serviços </a> 
+                <a class="nav-item nav-link text-light nav" href="SobreNós.html"> Sobre nós </a> <!-- sobre nós -->
+                <a class="nav-item nav-link text-light nav" href="Login.html"> <i class="fa fa-user-o icon" aria-hidden="true"></i> Cadastro </a>
+
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light text-font nav" data-toggle="dropdown" id="navDrop" > Ajuda</a>
+                    
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="FaleConosco.html"> Fale conosco </a>
+                      <a class="dropdown-item" href="Denuncie.html"> Denuncie </a>
+                      <a class="dropdown-item" href="Termos_Condições_Uso.html"> Termos de uso </a>  
+                    </div>
     
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSite">
-    
-              <ul class="navbar-nav mr-auto">
-                  <a class="nav-item nav-link text-light text-font nav" hrel="#"> Serviços </a> 
-                  <a class="nav-item nav-link text-light text-font nav" hrel="#"> Sobre nós </a> <!-- sobre nós -->
-                  <a class="nav-item nav-link text-light text-font nav" hrel="#"> <i class="fa fa-question" aria-hidden="true"></i> Ajuda </a> <!-- Fale conosco, Dúvidas frequentes, Denúncias e Termos de uso -->
-                  <a class="nav-item nav-link text-light text-font nav" hrel="#"> <i class="fa fa-user-o" aria-hidden="true"></i> Cadastro </a>
-              </ul>
-    
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle mr-4 text-light text-font" data-toggle="dropdown" id="navDrop"> Social </a>
-    
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item text-font" href="https://www.facebook.com/"> Facebook </a>
-                    <a class="dropdown-item text-font" href="https://br.linkedin.com/"> Linkedin </a>
-                    <a class="dropdown-item text-font" href="https://www.instagram.com/?hl=pt-br"> Instagram </a>  
+                  </li>
+                </ul>
+
+                
+                <!-- Modal : Perfil -->
+                <a class="nav-item nav-link text-light nav" data-toggle="modal" data-target="#staticBackdrop">  Perfil </a>
+
+                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content lead" style="font-size: 18px;">
+                      <div class="modal-header">
+                        <h5 class="modal-title text-center" id="staticBackdropLabel">Perfil</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+
+                      <div class="modal-body">
+                        <div class="about-perfil">
+                          <div class="about-Img lead">
+                              <figure class="figure about-Img">
+                                <img src="imgs/App.webp" class="rounded-circle" style="width: 210px; height: 210px;">
+                              </figure>
+                          </div>
+                          <p class="text-center" style="font-size: 30px; color: #1C2945;"> Nome Aqui</p>
+                        </div>
+
+                        <div class="about-work">
+                          <div class="lead">
+                            <p class="number"> 10 </p>
+                            <p class="categ pt-4"> Trabalhos </p>
+                          </div>
+
+                          <div class="lead">
+                            <p class="number-2"> R$60,00 </p>
+                            <p class="categ-2 pt-4"> Hora</p>
+                          </div>
+
+                          <div id="HR-verdical"></div>
+                          <hr>
+                        </div>
+
+                        <div class="about-desc lead">
+                          <p> Nome completo </p>
+                          <p> Redide em <b style="color: #000;">São Paulo</b> </p>
+                          <p> Atual em <b style="color: #000;">Desenvolvimento de sites</b> </p>
+                          <p> Contato via 
+                            <a class="link" href="#"> Whatsapp</a>,
+                            <a class="link" href="#"> E-mail </a> e 
+                            <a class="link" href="#"> Telegram </a>
+                           </p>
+                        </div>
+                        <hr>
+
+                        <div class="about-rate">
+                          <h5>Avaliações</h5>
+                            <div class="card border border-secondary" style="width: 20rem; height: 11rem;">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some text to build on the card title and make up the bulk of the card's content.</p>
+                              </div>
+                            </div>
+                          <hr>
+                        </div>
+
+                        <form>
+                          <h2 class="pb-2"> Quer refazer sua senha ? </h2>
+                          <div class="about-form">
+                            <div class="form-row">
+                              <div class="form-group text-center">
+                                <label for="inputEmail">E-mail: </label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                              </div>
+                            </div>
+                          
+                              <div class="form-row">
+                                <div class="form-group text-center">
+                                  <label for="inputSenha">Senha: </label>
+                                  <input type="password" class="form-control" id="inputSenha">
+                                </div>
+                              </div>
+
+                            <div class="form-row">
+                              <div class="form-group text-center">
+                                <label for="inputEndereco"> Confirme Senha: </label>
+                                <input type="text" class="form-control" id="inputEndereco">
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button id="btn1" type="submit" class="btn text-light" style="background-color: #1C2945">Salvar</button>
+                        <button type="submit" class="btn text-light" style="background-color: #bf3030">Excluir conta</button>
+                      </div>
+                    </div>
                   </div>
-    
-                </li>
-              </ul>
-              
-              <form class="form-inline ">
-                <i class="fa fa-search text-light text-font" aria-hidden="true" style="font-size: 22px;"></i> 
-                <input type="search" class="ml-2 mr-2" placeholder="Buscar...">
-                <input type="submit" value="Enviar" class="btn-1">
-              </form>
-    
-            </div>
-    
+                </div>
+
+                <!-- Fim Modal : Perfil -->
+            </ul>
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle mr-4 text-light text-font" data-toggle="dropdown" id="navDrop"> Social </a>
+
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="https://www.facebook.com/"> Facebook </a>
+                  <a class="dropdown-item" href="https://br.linkedin.com/"> Linkedin </a>
+                  <a class="dropdown-item" href="https://www.instagram.com/?hl=pt-br"> Instagram </a>  
+                </div>
+
+              </li>
+            </ul>
+            
+            <form class="form-inline ">
+              <i class="fa fa-search text-light text-font" aria-hidden="true" style="font-size: 22px;"></i> 
+              <input type="search" class="ml-2 mr-2" placeholder="Buscar...">
+              <input type="submit" value="Enviar" class="btn-1">
+            </form>
+
           </div>
+
+        </div>
     </nav>
     <div class="border border-light"></div>
     <!-- Fim navbar -->
 
     <!-- Conteúdo -->
-
     <div class="Terms">
         <div class="container-fluid">
             <div class="row">
@@ -222,7 +332,6 @@
             </div>
         </div>
     </div>
-
     <!-- Fim Conteúdo -->
 
     <!-- Footer -->
