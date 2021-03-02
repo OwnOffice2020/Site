@@ -476,8 +476,13 @@ textarea{
 
 #Denuncie{
     position: absolute;
+<<<<<<< HEAD:src/Styles/Geral.css
     margin-top: -440px;
     left: 66%;
+=======
+    margin-top: -480px;
+    left: 57.3%;
+>>>>>>> 6c8ca51a47ac3cd0bf1c08ce7bdd89554710fff7:css/Geral.css
     margin-right: 0;
 }
 
@@ -583,11 +588,19 @@ textarea{
 }
 
 .link{
+<<<<<<< HEAD:src/Styles/Geral.css
     color: #1C2945;
 }
 
 .link:hover{
     color: #1C2945;
+=======
+    color: #000;
+}
+
+.link:hover{
+    color: #000;
+>>>>>>> 6c8ca51a47ac3cd0bf1c08ce7bdd89554710fff7:css/Geral.css
 }
 
 .about-Img{
@@ -599,4 +612,8 @@ textarea{
 .about-form{
     position: flex;
     margin-left: 27.5%;
+<<<<<<< HEAD:src/Styles/Geral.css
 }
+=======
+}
+>>>>>>> 6c8ca51a47ac3cd0bf1c08ce7bdd89554710fff7:css/Geral.css
