@@ -1,4 +1,4 @@
-# BEM VINDO A OWNOFFICE - INSTRUÇÕES 2222222
+# BEM VINDO A OWNOFFICE - INSTRUÇÕES 
 
 # O site da OwnOffice se inicia a partir da index.html
 # O úsuario pode realizar seu cadastro ou login para acessar a index.html
