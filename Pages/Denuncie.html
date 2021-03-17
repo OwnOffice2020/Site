@@ -20,328 +20,338 @@
   <body style="background-color:  #1C2945;"> 
 
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg flex-column flex-sm-row" style="background-color:  #1C2945;">
+    <header>
+      <nav class="navbar navbar-expand-lg flex-column flex-sm-row" style="background-color:  #1C2945;">
 
-      <div class="container">
-        <a class="navbar-brand h1 mb-0 text-light text-font" style="margin-right: 55px;" href="../index.html">
-          <img class="nav center-icon" src="../assets/imgs/teste.png" width="48" height="31">
-          OwnOffice
-        </a>
+        <div class="container">
+          <a class="navbar-brand h1 mb-0 text-light text-font" style="margin-right: 55px;" href="../index.html">
+            <img class="nav center-icon" src="../assets/imgs/teste.png" width="48" height="31">
+            OwnOffice
+          </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarSite">
+          <div class="collapse navbar-collapse" id="navbarSite">
 
-          <ul class="navbar-nav mr-auto">
-              <a class="nav-item nav-link text-light nav" href="#"> Serviços </a> 
-              <a class="nav-item nav-link text-light nav" href="SobreNós.html"> Sobre nós </a> <!-- sobre nós -->
-              <a class="nav-item nav-link text-light nav" href="Login.html"> <i class="fa fa-user-o icon" aria-hidden="true"></i> Cadastro </a>
+            <ul class="navbar-nav mr-auto">
+                <a class="nav-item nav-link text-light nav" href="#"> Serviços </a> 
+                <a class="nav-item nav-link text-light nav" href="SobreNós.html"> Sobre nós </a> <!-- sobre nós -->
+                <a class="nav-item nav-link text-light nav" href="Login.html"> <i class="fa fa-user-o icon" aria-hidden="true"></i> Cadastro </a>
 
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-light text-font nav" data-toggle="dropdown" id="navDrop" > Ajuda</a>
-                  
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="FaleConosco.html"> Fale conosco </a>
-                    <a class="dropdown-item" href="Denuncie.html"> Denuncie </a>
-                    <a class="dropdown-item" href="Termos_Condições_Uso.html"> Termos de uso </a>  
-                  </div>
-  
-                </li>
-              </ul>
-
-              
-              <!-- Modal : Perfil -->
-              <a class="nav-item nav-link text-light nav" data-toggle="modal" data-target="#staticBackdrop">  Perfil </a>
-
-              <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content lead" style="font-size: 18px;">
-                    <div class="modal-header">
-                      <h5 class="display-4 text-center" style="font-size: 40px; margin-left: 33%; color: #1C2945;" id="staticBackdropLabel">Seu perfil</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light text-font nav" data-toggle="dropdown" id="navDrop" > Ajuda</a>
+                    
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="FaleConosco.html"> Fale conosco </a>
+                      <a class="dropdown-item" href="Denuncie.html"> Denuncie </a>
+                      <a class="dropdown-item" href="Termos_Condições_Uso.html"> Termos de uso </a>  
                     </div>
+    
+                  </li>
+                </ul>
 
-                    <div class="modal-body">
-                      <div class="about-perfil">
-                        <div class="about-Img lead">
-                            <figure class="figure about-Img">
-                              <img src="../assets/imgs/App.webp" class="rounded-circle" style="width: 210px; height: 210px;">
-                            </figure>
-                        </div>
-                        <p class="text-center" style="font-size: 30px; color: #1C2945;"> Nome Aqui</p>
+                
+                <!-- Modal : Perfil -->
+                <a class="nav-item nav-link text-light nav" data-toggle="modal" data-target="#staticBackdrop">  Perfil </a>
+
+                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content lead" style="font-size: 18px;">
+                      <div class="modal-header">
+                        <h5 class="display-4 text-center" style="font-size: 40px; margin-left: 33%; color: #1C2945;" id="staticBackdropLabel">Seu perfil</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
                       </div>
 
-                      <div class="about-work">
-                        <div class="lead">
-                          <p class="number"> 10 </p>
-                          <p class="categ pt-4"> Trabalhos </p>
-                        </div>
-
-                        <div class="lead">
-                          <p class="number-2"> R$60,00 </p>
-                          <p class="categ-2 pt-4"> Hora</p>
-                        </div>
-
-                        <div id="HR-verdical"></div>
-                        <hr>
-                      </div>
-
-                      <div class="about-desc lead">
-                        <p> Nome completo </p>
-                        <p> Reside em <b style="color: #1C2945;">São Paulo</b> </p>
-                        <p> Atual em <b style="color: #1C2945;">Desenvolvimento de sites</b> </p>
-                        <p> Contato via 
-                          <a class="link" href="#"> Whatsapp</a>,
-                          <a class="link" href="#"> E-mail </a> e 
-                          <a class="link" href="#"> Telegram </a>
-                         </p>
-                      </div>
-                      <hr>
-
-                      <div class="about-rate">
-                        <h5 class="display-4 pb-2 text-center" style="font-size: 40px;">Avaliações</h5>
-                          <div class="card border border-secondary" style="width: 20rem; height: 11rem; margin-left: 15.3%;">
-                            <div class="card-body">
-                              <h5 class="card-title">Nome Aqui</h5>
-                              <h6 class="card-subtitle mb-2 text-muted">Avaliação</h6>
-                              <p class="card-text">Comentário do que achou do trabalho de um prestador de serviço.</p>
-                            </div>
+                      <div class="modal-body">
+                        <div class="about-perfil">
+                          <div class="about-Img lead">
+                              <figure class="figure about-Img">
+                                <img src="../assets/imgs/App.webp" class="rounded-circle" style="width: 210px; height: 210px;">
+                              </figure>
                           </div>
-                        <hr>
-                      </div>
+                          <p class="text-center" style="font-size: 30px; color: #1C2945;"> Nome Aqui</p>
+                        </div>
 
-                      <form>
-                        <h2 class="display-4 pb-2 text-center" style="font-size: 40px;"> Quer refazer sua senha ? </h2>
-                        <div class="about-form">
-                          <div class="form-row">
-                            <div class="form-group text-center">
-                              <label for="inputEmail">E-mail: </label>
-                              <input type="email" class="form-control" id="inputEmail4">
-                            </div>
+                        <div class="about-work">
+                          <div class="lead">
+                            <p class="number"> 10 </p>
+                            <p class="categ pt-4"> Trabalhos </p>
                           </div>
-                        
-                            <div class="form-row">
-                              <div class="form-group text-center">
-                                <label for="inputSenha">Senha: </label>
-                                <input type="password" class="form-control" id="inputSenha">
+
+                          <div class="lead">
+                            <p class="number-2"> R$60,00 </p>
+                            <p class="categ-2 pt-4"> Hora</p>
+                          </div>
+
+                          <div id="HR-verdical"></div>
+                          <hr>
+                        </div>
+
+                        <div class="about-desc lead">
+                          <p> Nome completo </p>
+                          <p> Reside em <b style="color: #1C2945;">São Paulo</b> </p>
+                          <p> Atual em <b style="color: #1C2945;">Desenvolvimento de sites</b> </p>
+                          <p> Contato via 
+                            <a class="link" href="#"> Whatsapp</a>,
+                            <a class="link" href="#"> E-mail </a> e 
+                            <a class="link" href="#"> Telegram </a>
+                          </p>
+                        </div>
+                        <hr>
+
+                        <div class="about-rate">
+                          <h5 class="display-4 pb-2 text-center" style="font-size: 40px;">Avaliações</h5>
+                            <div class="card border border-secondary" style="width: 20rem; height: 11rem; margin-left: 15.3%;">
+                              <div class="card-body">
+                                <h5 class="card-title">Nome Aqui</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Avaliação</h6>
+                                <p class="card-text">Comentário do que achou do trabalho de um prestador de serviço.</p>
                               </div>
                             </div>
+                          <hr>
+                        </div>
 
-                          <div class="form-row">
-                            <div class="form-group text-center">
-                              <label for="inputEndereco"> Confirme Senha: </label>
-                              <input type="text" class="form-control" id="inputEndereco">
+                        <form>
+                          <h2 class="display-4 pb-2 text-center" style="font-size: 40px;"> Quer refazer sua senha ? </h2>
+                          <div class="about-form">
+                            <div class="form-row">
+                              <div class="form-group text-center">
+                                <label for="inputEmail">E-mail: </label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                              </div>
+                            </div>
+                          
+                              <div class="form-row">
+                                <div class="form-group text-center">
+                                  <label for="inputSenha">Senha: </label>
+                                  <input type="password" class="form-control" id="inputSenha">
+                                </div>
+                              </div>
+
+                            <div class="form-row">
+                              <div class="form-group text-center">
+                                <label for="inputEndereco"> Confirme Senha: </label>
+                                <input type="text" class="form-control" id="inputEndereco">
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </form>
-                    </div>
-                    <div class="modal-footer">
-                      <button id="btn1" type="submit" class="btn text-light" style="background-color: #1C2945">Salvar</button>
-                      <button type="submit" class="btn text-light" style="background-color: #bf3030">Excluir conta</button>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button id="btn1" type="submit" class="btn text-light" style="background-color: #1C2945">Salvar</button>
+                        <button type="submit" class="btn text-light" style="background-color: #bf3030">Excluir conta</button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <!-- Fim Modal : Perfil -->
-          </ul>
+                <!-- Fim Modal : Perfil -->
+            </ul>
 
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle mr-4 text-light text-font" data-toggle="dropdown" id="navDrop"> Social </a>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle mr-4 text-light text-font" data-toggle="dropdown" id="navDrop"> Social </a>
 
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="https://www.facebook.com/"> Facebook </a>
-                <a class="dropdown-item" href="https://br.linkedin.com/"> Linkedin </a>
-                <a class="dropdown-item" href="https://www.instagram.com/?hl=pt-br"> Instagram </a>  
-              </div>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="https://www.facebook.com/"> Facebook </a>
+                  <a class="dropdown-item" href="https://br.linkedin.com/"> Linkedin </a>
+                  <a class="dropdown-item" href="https://www.instagram.com/?hl=pt-br"> Instagram </a>  
+                </div>
 
-            </li>
-          </ul>
-          
-          <form class="form-inline ">
-            <i class="fa fa-search text-light text-font" aria-hidden="true" style="font-size: 22px;"></i> 
-            <input type="search" class="ml-2 mr-2" placeholder="Buscar...">
-            <input type="submit" value="Enviar" class="btn-1">
-          </form>
+              </li>
+            </ul>
+            
+            <form class="form-inline ">
+              <i class="fa fa-search text-light text-font" aria-hidden="true" style="font-size: 22px;"></i> 
+              <input type="search" class="ml-2 mr-2" placeholder="Buscar...">
+              <input type="submit" value="Enviar" class="btn-1">
+            </form>
+
+          </div>
 
         </div>
-
-      </div>
-    </nav>
-    <div class="border border-light"></div>
+      </nav>
+      <div class="border border-light"></div>
+    </header>
     <!-- Fim navbar -->
 
+  <section id="formulário">
     <!-- grid : Denuncie -->
-    <div id="text">
-        <img class="img-fluid"  id="img" src="../assets/imgs/Denúncia.png"> <!-- ajustar para texto não foto -->
-        <div class="container pb-5">
-            <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-7 text-center">
-                    <div id="margin">
-                        <h1 class="about-title text-light display-4 mt-5">  Aconteceu algo?  </h1>
-                        <h5 class="about-title text-light"> Venha relatar o ocorrido e vamos fazer de tudo para recompessar. Além do mais, sempre estaremos do seu lado !</h5>
-                        <hr id="space">    
-                        <p class="lead text-light"> Precisamos que nos conte cada detalhe do fato, por exemplo, onde foi, como aconteceu e
-                            quem são as pessoas envolvidas. Como forma de prova, também exigimos evidências, documentos ou outras informações 
-                            que podem ser relevantes para podermos agir corretamente.
-                        </p>
+      <article id="descrição">
+        <div id="text">
+            <img class="img-fluid"  id="img" src="../assets/imgs/Denúncia.png"> <!-- ajustar para texto não foto -->
+            <div class="container pb-5">
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-7 text-center">
+                        <div id="margin">
+                          <header>
+                            <h1 class="about-title text-light display-4 mt-5">  Aconteceu algo?  </h1>
+                            <h5 class="about-title text-light"> Venha relatar o ocorrido e vamos fazer de tudo para recompessar. Além do mais, sempre estaremos do seu lado !</h5>
+                            <hr id="space">    
+                          </header>
+                            <p class="lead text-light"> Precisamos que nos conte cada detalhe do fato, por exemplo, onde foi, como aconteceu e
+                                quem são as pessoas envolvidas. Como forma de prova, também exigimos evidências, documentos ou outras informações 
+                                que podem ser relevantes para podermos agir corretamente.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+      </article>
     <!-- Fim grid : Denuncie -->
 
-        <!-- Contato : Grid -->
+    <!-- Contato : Grid -->
+      <article id="coletaDados">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6 pt-5">
-                    <form>
-                        <div class="form-row text-center">
-                            <div class="col-sm-12">
-                                <p class="text-light lead"> Seu E-mail: </p>
-                                <label for="inputEmail" class="text-light lead">
-                                    <input type="email" class="input" placeholder="Nome@Exemplo.com" style="font-size: 16px;">
-                                </label>
-                            </div>
-                        </div>
+              <div class="row">
+                  <div class="col-sm-6 pt-5">
+                      <form>
+                          <div class="form-row text-center">
+                              <div class="col-sm-12">
+                                  <p class="text-light lead"> Seu E-mail: </p>
+                                  <label for="inputEmail" class="text-light lead">
+                                      <input type="email" class="input" placeholder="Nome@Exemplo.com" style="font-size: 16px;">
+                                  </label>
+                              </div>
+                          </div>
 
-                        <div class="form-row text-center">
-                            <div class="col-sm-12 mt-2">
-                                <div class="radio_container">
-                                    <p class="text-light lead"> Sobre: </p>
-                                    <label class="radio lead">
-                                      <input type="radio" value="Pres1" name="radio">
-                                        Prestador
-                                      <span></span>
-                                    </label>
-                              
-                                    <label class="radio lead">
-                                      <input type="radio" value="Col2" name="radio">
-                                      Colaborador
-                                      <span></span>
-                                    </label>
-                              
-                                    <label class="radio lead">
-                                      <input type="radio" value="Forn3" name="radio">
-                                        Fornecedor
-                                      <span></span>
-                                    </label>
-                                  </div>
-                            </div>
-                        </div>
+                          <div class="form-row text-center">
+                              <div class="col-sm-12 mt-2">
+                                  <div class="radio_container">
+                                      <p class="text-light lead"> Sobre: </p>
+                                      <label class="radio lead">
+                                        <input type="radio" value="Pres1" name="radio">
+                                          Prestador
+                                        <span></span>
+                                      </label>
+                                
+                                      <label class="radio lead">
+                                        <input type="radio" value="Col2" name="radio">
+                                        Colaborador
+                                        <span></span>
+                                      </label>
+                                
+                                      <label class="radio lead">
+                                        <input type="radio" value="Forn3" name="radio">
+                                          Fornecedor
+                                        <span></span>
+                                      </label>
+                                    </div>
+                              </div>
+                          </div>
 
-                        <div class="form-row text-center">
-                            <div class="col-sm-12 mt-2">
-                                <p class="text-light lead"> Deixe seu recado: </p>
-                                <label for="inputNome" class="text-light lead" style="font-size: 16px;">
-                                    <textarea name="mensagem" placeholder=""></textarea>
-                                </label>
-                            </div>
-                        </div>
-            
-                        <div class="form-row text-center">
-                            <div class="col-sm-12 mt-3">
-                                <a href="#" class="btn-Sing btn-1 text-center"> Enviar </a>
-                            </div> 
-                        </div>
-                    </form>
-                </div>
-                <div class="col-sm-10 my-4">
-                  <img class="img-fluid"  id="Denuncie" src="../assets/imgs/Denuncie.png" width="600px" height="600px">
-                </div>
-            </div>
-        </div> 
-        <!-- Fim Contato : Grid -->
-
-    <!-- Footer -->
-    <footer class="pt-5 pb-4 text-light mt-5" style="background-color:  #1C2945;">
-      <div class="container text-center text-md-left">
-      <div class="row text-center text-md-left">
-          
-          <!-- CardPromoNews -->
-          <div class="col-lg-12 text-center pb-5">
-          <h2 class="card-title" >Quer receber nossas promoções e newsletter?</h2>
-              <div class="form-group pt-3">
-              <p> <label for="exampleInputEmail1">Digite seu e-mail</label> </p>
-              <input type="email" class="form-control" id="new" aria-describedby="emailHelp">
+                          <div class="form-row text-center">
+                              <div class="col-sm-12 mt-2">
+                                  <p class="text-light lead"> Deixe seu recado: </p>
+                                  <label for="inputNome" class="text-light lead" style="font-size: 16px;">
+                                      <textarea name="mensagem" placeholder=""></textarea>
+                                  </label>
+                              </div>
+                          </div>
+              
+                          <div class="form-row text-center">
+                              <div class="col-sm-12 mt-3">
+                                  <a href="#" class="btn-Sing btn-1 text-center"> Enviar </a>
+                              </div> 
+                          </div>
+                      </form>
+                  </div>
+                  <div class="col-sm-10 my-4">
+                    <img class="img-fluid"  id="denuncie" src="../assets/imgs/Denuncie.png" width="600px" height="600px">
+                  </div>
               </div>
-              <button type="submit" class="btn-1" id="btn-footer">Enviar</button>
-          </form>
-          </div>
-          <!-- Fim CardPromoNews -->
+        </div> 
+      </article>
+    <!-- Fim Contato : Grid -->
+  </section>
 
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h5 class="text-light mb-4 about-title"> Navege </h5>
-          <p class="lead mb-1"> <a href="../index.html" class="text-light size"> OwnOffice </a> </p>
-          <p class="lead mb-1"> <a href="#" class="text-light size"> Promoções </a> </p>
-          <p class="lead mb-1"> <a href="#" class="text-light size"> Seu Perfil </a> </p>
-          <p class="lead mb-1"> <a href="#" class="text-light size"> Sair da conta </a> </p>
-          <p class="lead mb-1"> <a href="#" class="text-light size"> Trabalhe conosco </a> </p>
-          </div>
+  <!-- Footer -->
+    <footer class="pt-5 pb-4 text-light mt-5" style="background-color:  #1C2945;">
+        <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+            
+            <!-- CardPromoNews -->
+            <div class="col-lg-12 text-center pb-5">
+            <h2 class="card-title" >Quer receber nossas promoções e newsletter?</h2>
+                <div class="form-group pt-3">
+                <p> <label for="exampleInputEmail1">Digite seu e-mail</label> </p>
+                <input type="email" class="form-control" id="new" aria-describedby="emailHelp">
+                </div>
+                <button type="submit" class="btn-1" id="btn-footer">Enviar</button>
+            </form>
+            </div>
+            <!-- Fim CardPromoNews -->
 
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h5 class="text-light mb-4 about-title"> OwnOffice </h5>
-          <p class="lead mb-1"> <a href="SobreNós.html" class="text-light size"> Quem somos </a></p>
-          <p class="lead mb-1"> <a href="#" class="text-light size"> Investidores </a> </p>
-          <p class="lead mb-1"> <a href="#" class="text-light size"> Carreira </a> </p>
-          <p class="lead mb-1"> <a href="#" class="text-light size"> Notícias </a> </p>
-          <p class="lead mb-1"> <a href="#" class="text-light size"> Sustentabilidade </a> </p>
-          </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-light mb-4 about-title"> Navege </h5>
+            <p class="lead mb-1"> <a href="../index.html" class="text-light size"> OwnOffice </a> </p>
+            <p class="lead mb-1"> <a href="#" class="text-light size"> Promoções </a> </p>
+            <p class="lead mb-1"> <a href="#" class="text-light size"> Seu Perfil </a> </p>
+            <p class="lead mb-1"> <a href="#" class="text-light size"> Sair da conta </a> </p>
+            <p class="lead mb-1"> <a href="#" class="text-light size"> Trabalhe conosco </a> </p>
+            </div>
 
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h5 class="text-light mb-4 about-title"> Dúvidas </h5>
-          <p class="lead mb-1"> <a href="FaleConosco.html" class="text-light size"> Central de contato </a> </p>
-          <p class="lead mb-1"> <a href="#" class="text-light size"> Dúvidas frequentes </a> </p>
-          <p class="lead mb-1"> <a href="Denuncie.html" class="text-light size"> Denúncias </a> </p>
-          <p class="lead mb-1"> <a href="Termos_Condições_Uso.html" class="text-light size"> Termos e condições de uso </a> </p>
-          <p class="lead mb-1"> <a href="#" class="text-light size"> Termos de privacidade </a> </p>
-          </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-light mb-4 about-title"> OwnOffice </h5>
+            <p class="lead mb-1"> <a href="SobreNós.html" class="text-light size"> Quem somos </a></p>
+            <p class="lead mb-1"> <a href="#" class="text-light size"> Investidores </a> </p>
+            <p class="lead mb-1"> <a href="#" class="text-light size"> Carreira </a> </p>
+            <p class="lead mb-1"> <a href="#" class="text-light size"> Notícias </a> </p>
+            <p class="lead mb-1"> <a href="#" class="text-light size"> Sustentabilidade </a> </p>
+            </div>
 
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <img class="img-fluid align-self-left" src="../assets/imgs/teste.png" alt="OwnOffice">
-          </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-light mb-4 about-title"> Dúvidas </h5>
+            <p class="lead mb-1"> <a href="FaleConosco.html" class="text-light size"> Central de contato </a> </p>
+            <p class="lead mb-1"> <a href="#" class="text-light size"> Dúvidas frequentes </a> </p>
+            <p class="lead mb-1"> <a href="Denuncie.html" class="text-light size"> Denúncias </a> </p>
+            <p class="lead mb-1"> <a href="Termos_Condições_Uso.html" class="text-light size"> Termos e condições de uso </a> </p>
+            <p class="lead mb-1"> <a href="#" class="text-light size"> Termos de privacidade </a> </p>
+            </div>
 
-      </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <img class="img-fluid align-self-left" src="../assets/imgs/teste.png" alt="OwnOffice">
+            </div>
 
-      <hr class="hr">
+        </div>
 
-      <div class="row align-items-certer">
-          <div class="col-md-7 col-lg 8">
-          <p class="text-footer-end lead" style="font-size: 16px;"> Copyright @2020 All rights reserved by: 
-              <a href="#" style="text-decoration: none; color: #adb7bd;"> OwnOffice </a> 
-          </p>
-          </div>
+        <hr class="hr">
 
-          <div class="col-md-5 col-lg-4">
-          <div class="text-center text-md-right">
-              <ul class="list-unstyled list-inline">
-              <li class="list-inline-item"> <a href="#" class="btn-floating btn-sm text-light" style="font-size: 26px;"> 
-                  <i class="fa fa-facebook mr-1" aria-hidden="true"></i> </a> 
-              </li>
-              <li class="list-inline-item"> <a href="#" class="btn-floating btn-sm text-light" style="font-size: 26px;"> 
-                  <i class="fa fa-instagram mr-1" aria-hidden="true"></i> </a> 
-              </li>
-              <li class="list-inline-item"> <a href="#" class="btn-floating btn-sm text-light" style="font-size: 26px;"> 
-                  <i class="fa fa-linkedin mr-1" aria-hidden="true"></i> </a> 
-              </li>
-              <li class="list-inline-item"> <a href="#" class="btn-floating btn-sm text-light" style="font-size: 26px;"> 
-                  <i class="fa fa-google-plus mr-1" aria-hidden="true"></i> </a> 
-              </li>
-              </ul>
-          </div>
-          </div>
-      </div>
+        <div class="row align-items-certer">
+            <div class="col-md-7 col-lg 8">
+            <p class="text-footer-end lead" style="font-size: 16px;"> Copyright @2020 All rights reserved by: 
+                <a href="#" style="text-decoration: none; color: #adb7bd;"> OwnOffice </a> 
+            </p>
+            </div>
 
-      </div>
-  </footer>
+            <div class="col-md-5 col-lg-4">
+            <div class="text-center text-md-right">
+                <ul class="list-unstyled list-inline">
+                <li class="list-inline-item"> <a href="#" class="btn-floating btn-sm text-light" style="font-size: 26px;"> 
+                    <i class="fa fa-facebook mr-1" aria-hidden="true"></i> </a> 
+                </li>
+                <li class="list-inline-item"> <a href="#" class="btn-floating btn-sm text-light" style="font-size: 26px;"> 
+                    <i class="fa fa-instagram mr-1" aria-hidden="true"></i> </a> 
+                </li>
+                <li class="list-inline-item"> <a href="#" class="btn-floating btn-sm text-light" style="font-size: 26px;"> 
+                    <i class="fa fa-linkedin mr-1" aria-hidden="true"></i> </a> 
+                </li>
+                <li class="list-inline-item"> <a href="#" class="btn-floating btn-sm text-light" style="font-size: 26px;"> 
+                    <i class="fa fa-google-plus mr-1" aria-hidden="true"></i> </a> 
+                </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+
+        </div>
+    </footer>
   <!-- Fim Footer -->
 
     <!-- Optional JavaScript -->

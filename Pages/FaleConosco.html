@@ -20,288 +20,300 @@
   <body style="background-color:  #1C2945;"> 
 
       <!-- NavBar -->
-      <nav class="navbar navbar-expand-lg flex-column flex-sm-row" style="background-color:  #1C2945;">
+      <header>
+        <nav class="navbar navbar-expand-lg flex-column flex-sm-row" style="background-color:  #1C2945;">
 
-        <div class="container">
-          <a class="navbar-brand h1 mb-0 text-light text-font" style="margin-right: 55px;" href="../index.html">
-            <img class="nav center-icon" src="../assets/imgs/teste.png" width="48" height="31">
-            OwnOffice
-          </a>
+          <div class="container">
+            <a class="navbar-brand h1 mb-0 text-light text-font" style="margin-right: 55px;" href="../index.html">
+              <img class="nav center-icon" src="../assets/imgs/teste.png" width="48" height="31">
+              OwnOffice
+            </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <div class="collapse navbar-collapse" id="navbarSite">
+            <div class="collapse navbar-collapse" id="navbarSite">
 
-            <ul class="navbar-nav mr-auto">
-                <a class="nav-item nav-link text-light nav" href="#"> Serviços </a> 
-                <a class="nav-item nav-link text-light nav" href="SobreNós.html"> Sobre nós </a> <!-- sobre nós -->
-                <a class="nav-item nav-link text-light nav" href="Login.html"> <i class="fa fa-user-o icon" aria-hidden="true"></i> Cadastro </a>
+              <ul class="navbar-nav mr-auto">
+                  <a class="nav-item nav-link text-light nav" href="#"> Serviços </a> 
+                  <a class="nav-item nav-link text-light nav" href="SobreNós.html"> Sobre nós </a> <!-- sobre nós -->
+                  <a class="nav-item nav-link text-light nav" href="Login.html"> <i class="fa fa-user-o icon" aria-hidden="true"></i> Cadastro </a>
 
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light text-font nav" data-toggle="dropdown" id="navDrop" > Ajuda</a>
-                    
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="FaleConosco.html"> Fale conosco </a>
-                      <a class="dropdown-item" href="Denuncie.html"> Denuncie </a>
-                      <a class="dropdown-item" href="Termos_Condições_Uso.html"> Termos de uso </a>  
-                    </div>
-    
-                  </li>
-                </ul>
-
-                
-                <!-- Modal : Perfil -->
-                <a class="nav-item nav-link text-light nav" data-toggle="modal" data-target="#staticBackdrop">  Perfil </a>
-
-                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content lead" style="font-size: 18px;">
-                      <div class="modal-header">
-                        <h5 class="display-4 text-center" style="font-size: 40px; margin-left: 33%; color: #1C2945;" id="staticBackdropLabel">Seu perfil</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-light text-font nav" data-toggle="dropdown" id="navDrop" > Ajuda</a>
+                      
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="FaleConosco.html"> Fale conosco </a>
+                        <a class="dropdown-item" href="Denuncie.html"> Denuncie </a>
+                        <a class="dropdown-item" href="Termos_Condições_Uso.html"> Termos de uso </a>  
                       </div>
+      
+                    </li>
+                  </ul>
 
-                      <div class="modal-body">
-                        <div class="about-perfil">
-                          <div class="about-Img lead">
-                              <figure class="figure about-Img">
-                                <img src="../assets/imgs/App.webp" class="rounded-circle" style="width: 210px; height: 210px;">
-                              </figure>
-                          </div>
-                          <p class="text-center" style="font-size: 30px; color: #1C2945;"> Nome Aqui</p>
+                  
+                  <!-- Modal : Perfil -->
+                  <a class="nav-item nav-link text-light nav" data-toggle="modal" data-target="#staticBackdrop">  Perfil </a>
+
+                  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content lead" style="font-size: 18px;">
+                        <div class="modal-header">
+                          <h5 class="display-4 text-center" style="font-size: 40px; margin-left: 33%; color: #1C2945;" id="staticBackdropLabel">Seu perfil</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
                         </div>
 
-                        <div class="about-work">
-                          <div class="lead">
-                            <p class="number"> 10 </p>
-                            <p class="categ pt-4"> Trabalhos </p>
-                          </div>
-
-                          <div class="lead">
-                            <p class="number-2"> R$60,00 </p>
-                            <p class="categ-2 pt-4"> Hora</p>
-                          </div>
-
-                          <div id="HR-verdical"></div>
-                          <hr>
-                        </div>
-
-                        <div class="about-desc lead">
-                          <p> Nome completo </p>
-                          <p> Reside em <b style="color: #1C2945;">São Paulo</b> </p>
-                          <p> Atual em <b style="color: #1C2945;">Desenvolvimento de sites</b> </p>
-                          <p> Contato via 
-                            <a class="link" href="#"> Whatsapp</a>,
-                            <a class="link" href="#"> E-mail </a> e 
-                            <a class="link" href="#"> Telegram </a>
-                           </p>
-                        </div>
-                        <hr>
-
-                        <div class="about-rate">
-                          <h5 class="display-4 pb-2 text-center" style="font-size: 40px;">Avaliações</h5>
-                            <div class="card border border-secondary" style="width: 20rem; height: 11rem; margin-left: 15.3%;">
-                              <div class="card-body">
-                                <h5 class="card-title">Nome Aqui</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Avaliação</h6>
-                                <p class="card-text">Comentário do que achou do trabalho de um prestador de serviço.</p>
-                              </div>
+                        <div class="modal-body">
+                          <div class="about-perfil">
+                            <div class="about-Img lead">
+                                <figure class="figure about-Img">
+                                  <img src="../assets/imgs/App.webp" class="rounded-circle" style="width: 210px; height: 210px;">
+                                </figure>
                             </div>
-                          <hr>
-                        </div>
+                            <p class="text-center" style="font-size: 30px; color: #1C2945;"> Nome Aqui</p>
+                          </div>
 
-                        <form>
-                          <h2 class="display-4 pb-2 text-center" style="font-size: 40px;"> Quer refazer sua senha ? </h2>
-                          <div class="about-form">
-                            <div class="form-row">
-                              <div class="form-group text-center">
-                                <label for="inputEmail">E-mail: </label>
-                                <input type="email" class="form-control" id="inputEmail4">
-                              </div>
+                          <div class="about-work">
+                            <div class="lead">
+                              <p class="number"> 10 </p>
+                              <p class="categ pt-4"> Trabalhos </p>
                             </div>
-                          
-                              <div class="form-row">
-                                <div class="form-group text-center">
-                                  <label for="inputSenha">Senha: </label>
-                                  <input type="password" class="form-control" id="inputSenha">
+
+                            <div class="lead">
+                              <p class="number-2"> R$60,00 </p>
+                              <p class="categ-2 pt-4"> Hora</p>
+                            </div>
+
+                            <div id="HR-verdical"></div>
+                            <hr>
+                          </div>
+
+                          <div class="about-desc lead">
+                            <p> Nome completo </p>
+                            <p> Reside em <b style="color: #1C2945;">São Paulo</b> </p>
+                            <p> Atual em <b style="color: #1C2945;">Desenvolvimento de sites</b> </p>
+                            <p> Contato via 
+                              <a class="link" href="#"> Whatsapp</a>,
+                              <a class="link" href="#"> E-mail </a> e 
+                              <a class="link" href="#"> Telegram </a>
+                            </p>
+                          </div>
+                          <hr>
+
+                          <div class="about-rate">
+                            <h5 class="display-4 pb-2 text-center" style="font-size: 40px;">Avaliações</h5>
+                              <div class="card border border-secondary" style="width: 20rem; height: 11rem; margin-left: 15.3%;">
+                                <div class="card-body">
+                                  <h5 class="card-title">Nome Aqui</h5>
+                                  <h6 class="card-subtitle mb-2 text-muted">Avaliação</h6>
+                                  <p class="card-text">Comentário do que achou do trabalho de um prestador de serviço.</p>
                                 </div>
                               </div>
+                            <hr>
+                          </div>
 
-                            <div class="form-row">
-                              <div class="form-group text-center">
-                                <label for="inputEndereco"> Confirme Senha: </label>
-                                <input type="text" class="form-control" id="inputEndereco">
+                          <form>
+                            <h2 class="display-4 pb-2 text-center" style="font-size: 40px;"> Quer refazer sua senha ? </h2>
+                            <div class="about-form">
+                              <div class="form-row">
+                                <div class="form-group text-center">
+                                  <label for="inputEmail">E-mail: </label>
+                                  <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                              </div>
+                            
+                                <div class="form-row">
+                                  <div class="form-group text-center">
+                                    <label for="inputSenha">Senha: </label>
+                                    <input type="password" class="form-control" id="inputSenha">
+                                  </div>
+                                </div>
+
+                              <div class="form-row">
+                                <div class="form-group text-center">
+                                  <label for="inputEndereco"> Confirme Senha: </label>
+                                  <input type="text" class="form-control" id="inputEndereco">
+                                </div>
                               </div>
                             </div>
-                          </div>
-                        </form>
-                      </div>
-                      <div class="modal-footer">
-                        <button id="btn1" type="submit" class="btn text-light" style="background-color: #1C2945">Salvar</button>
-                        <button type="submit" class="btn text-light" style="background-color: #bf3030">Excluir conta</button>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button id="btn1" type="submit" class="btn text-light" style="background-color: #1C2945">Salvar</button>
+                          <button type="submit" class="btn text-light" style="background-color: #bf3030">Excluir conta</button>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <!-- Fim Modal : Perfil -->
-            </ul>
+                  <!-- Fim Modal : Perfil -->
+              </ul>
 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle mr-4 text-light text-font" data-toggle="dropdown" id="navDrop"> Social </a>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle mr-4 text-light text-font" data-toggle="dropdown" id="navDrop"> Social </a>
 
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="https://www.facebook.com/"> Facebook </a>
-                  <a class="dropdown-item" href="https://br.linkedin.com/"> Linkedin </a>
-                  <a class="dropdown-item" href="https://www.instagram.com/?hl=pt-br"> Instagram </a>  
-                </div>
-
-              </li>
-            </ul>
-            
-            <form class="form-inline ">
-              <i class="fa fa-search text-light text-font" aria-hidden="true" style="font-size: 22px;"></i> 
-              <input type="search" class="ml-2 mr-2" placeholder="Buscar...">
-              <input type="submit" value="Enviar" class="btn-1">
-            </form>
-
-          </div>
-
-        </div>
-      </nav>
-      <div class="border border-light"></div>
-      <!-- Fim navbar -->
-
-     <!--Collapse-->
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 mt-5 pb-5">
-            <h1 class="Title"> - Central de Contato - </h1>
-            <h5 class="about-title text-light text-center"> Encontre seu problema e te daremos a melhor solução possível</h5>
-          </div>
-          <div class="col-md-12 mt-5">
-            <div class="accordion content" id="accordionExample">
-
-              <div class="card">
-                <div class="card-header" id="headingOne">
-                  <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Problema 1
-                    </button>
-                  </h2>
-                </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                  <div class="card-body back-color">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://www.facebook.com/"> Facebook </a>
+                    <a class="dropdown-item" href="https://br.linkedin.com/"> Linkedin </a>
+                    <a class="dropdown-item" href="https://www.instagram.com/?hl=pt-br"> Instagram </a>  
                   </div>
-                </div>
-              </div>
 
-                <div class="card">
-                   <div class="card-header" id="headingTwo">
-                    <h2 class="mb-0">
-                       <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                         Problema 2
-                       </button>
-                     </h2>
-                   </div>
-                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                     <div class="card-body back-color">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                    </div>
-                  </div>
-                </div>
-
-              <div class="card">
-                <div class="card-header" id="headingThree">
-                  <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Problema 3
-                    </button>
-                  </h2>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                  <div class="card-body back-color">
-                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
+                </li>
+              </ul>
               
-           </div>
-          </div>
-        </div>
-      </div>
-      <!--Fim Collapse-->
-
-      <!-- Contato : Grid -->
-    <div class="container">
-        <div class="row">
-          <div class="col-sm-5 my-5 pt-5">
-              <h1 class="about-title text-light display-4 mt-5">  Ainda tem dúvida?  </h1>
-              <h5 class="about-title text-light"> Caso ainda tenha dúvidas, reclamações, elogios ou sugestões, por favor, venha conversar conosco! 
-                </h5>
-              <hr id="space">    
-              <p class="lead text-light"> Nossos profissionais atendem de segunda a sexta, das 7h às 21h. Caso prefira, fale diretamente com a 
-                  Central de contato da OwnOffice pelo telefone xxxx-xxxxxxx, WhatsApp (xx) xxxxx-xxxx ou preencha o 
-                  formulário ao lado.
-                </p>
-              <a href="Login.html" class="btn-Sing btn-1 text-center"> Cadastre-se </a>
-              <a href="#" class="btn-Sing btn-1 text-center"> Dúvidas </a>
-          </div>
-          <div class="col-sm-7 my-4">
-              <form>
-        
-                    <div class="form-row text-center pt-4">
-                        <div class="col-sm-12 mt-4">
-                            <label for="imputEmail" class="text-light lead"> Seu E-mail </label> <br>
-                            <input type="email" class="input" placeholder="Nome@Exemplo.com">
-                        </div>
-                    </div>
-
-                    <div class="form-row text-center">
-                        <div class="col-sm-12 mt-3">
-                            <label for="imputNome" class="text-light lead"> Seu Nome </label> <br>
-                            <input type="text" class="input" placeholder="Nome">
-                        </div>
-                    </div>
-
-                    <div class="form-row text-center">
-                        <div class="col-sm-12 mt-3">
-                            <label for="imputNome" class="text-light lead"> Seu Telefone </label> <br>
-                            <input type="tel" class="input" placeholder="(00) 00000-0000">
-                        </div>
-                    </div>
-
-                    <div class="form-row text-center">
-                        <div class="col-sm-12 mt-3">
-                            <label for="imputNome" class="text-light lead"> Seu CEP </label> <br>
-                            <input type="text" class="input" placeholder="00000-000">
-                        </div>
-                    </div>
-
-
-                    <div class="form-row text-center">
-                        <div class="col-sm-12 mt-3">
-                            <label for="imputNome" class="text-light lead"> Deixe seu recado </label> <br>
-                            <textarea name="mensagem" placeholder=""></textarea>
-                        </div>
-                    </div>
-        
-                      <div class="form-row text-center">
-                        <div class="col-sm-12 mt-4">
-                            <a href="#" class="btn-Sing btn-1 text-center"> Enviar </a>
-                        </div> 
-                      </div>
+              <form class="form-inline ">
+                <i class="fa fa-search text-light text-font" aria-hidden="true" style="font-size: 22px;"></i> 
+                <input type="search" class="ml-2 mr-2" placeholder="Buscar...">
+                <input type="submit" value="Enviar" class="btn-1">
               </form>
+
+            </div>
+
           </div>
-        </div>
-    </div> 
-    <!-- Fim Contato : Grid -->
+        </nav>
+        <div class="border border-light"></div>
+      </header>
+      <!-- Fim navbar -->
+    
+    <section id="informativo">
+      <!--Collapse-->
+        <article id="caixaDúvidas">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 mt-5 pb-5">
+                <header>
+                  <h1 class="Title"> - Central de Contato - </h1>
+                  <h5 class="about-title text-light text-center"> Encontre seu problema e te daremos a melhor solução possível</h5>
+                </header>
+              </div>
+              <div class="col-md-12 mt-5">
+                <div class="accordion content" id="accordionExample">
+
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Problema 1
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body back-color">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Problema 2
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body back-color">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Problema 3
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body back-color">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                  
+              </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      <!--Fim Collapse-->
+    </section>
+
+    <section id="formulário">
+      <!-- Contato : Grid -->
+        <article id="coletaDados">
+          <div class="container">
+              <div class="row">
+                <div class="col-sm-5 my-5 pt-5">
+                  <header>
+                    <h1 class="about-title text-light display-4 mt-5">  Ainda tem dúvida?  </h1>
+                    <h5 class="about-title text-light"> Caso ainda tenha dúvidas, reclamações, elogios ou sugestões, por favor, venha conversar conosco!</h5>
+                    <hr id="space">    
+                  </header>
+                    <p class="lead text-light"> Nossos profissionais atendem de segunda a sexta, das 7h às 21h. Caso prefira, fale diretamente com a 
+                      Central de contato da OwnOffice pelo telefone xxxx-xxxxxxx, WhatsApp (xx) xxxxx-xxxx ou preencha o formulário ao lado.
+                    </p>
+                    <a href="Login.html" class="btn-Sing btn-1 text-center"> Cadastre-se </a>
+                    <a href="#" class="btn-Sing btn-1 text-center"> Dúvidas </a>
+                </div>
+                <div class="col-sm-7 my-4">
+                    <form>
+              
+                          <div class="form-row text-center pt-4">
+                              <div class="col-sm-12 mt-4">
+                                  <label for="imputEmail" class="text-light lead"> Seu E-mail </label> <br>
+                                  <input type="email" class="input" placeholder="Nome@Exemplo.com">
+                              </div>
+                          </div>
+
+                          <div class="form-row text-center">
+                              <div class="col-sm-12 mt-3">
+                                  <label for="imputNome" class="text-light lead"> Seu Nome </label> <br>
+                                  <input type="text" class="input" placeholder="Nome">
+                              </div>
+                          </div>
+
+                          <div class="form-row text-center">
+                              <div class="col-sm-12 mt-3">
+                                  <label for="imputNome" class="text-light lead"> Seu Telefone </label> <br>
+                                  <input type="tel" class="input" placeholder="(00) 00000-0000">
+                              </div>
+                          </div>
+
+                          <div class="form-row text-center">
+                              <div class="col-sm-12 mt-3">
+                                  <label for="imputNome" class="text-light lead"> Seu CEP </label> <br>
+                                  <input type="text" class="input" placeholder="00000-000">
+                              </div>
+                          </div>
+
+
+                          <div class="form-row text-center">
+                              <div class="col-sm-12 mt-3">
+                                  <label for="imputNome" class="text-light lead"> Deixe seu recado </label> <br>
+                                  <textarea name="mensagem" placeholder=""></textarea>
+                              </div>
+                          </div>
+              
+                            <div class="form-row text-center">
+                              <div class="col-sm-12 mt-4">
+                                  <a href="#" class="btn-Sing btn-1 text-center"> Enviar </a>
+                              </div> 
+                            </div>
+                    </form>
+                </div>
+              </div>
+          </div> 
+        </article>
+      <!-- Fim Contato : Grid -->
+    </section>
 
   <!-- Footer -->
   <footer class="pt-5 pb-4 text-light mt-5" style="background-color:  #1C2945;">
