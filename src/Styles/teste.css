@@ -1,4 +1,4 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -59,4 +59,11 @@ body{
 
 .radio input[type="radio"]:checked ~ span:after{
     transform: translate(-50%, 50%) scale(1);
+}*/
+
+@media (max-width: 1000px) and (min-width: 500px){
+    body{
+        background-image: url(../../assets/imgs/Welcome.jpg);
+        background-repeat: no-repeat;
+    }
 }

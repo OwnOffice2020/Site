@@ -1,4 +1,17 @@
 /*Tratamento de fontes, hr e icones na page SobreNós.html*/
+/*tratamento @media */
+
+body{
+    background-color: white;
+}
+
+@media(orientation: landscape) and (min-width: 800px){
+    body{
+        background-image: url(../../assets/imgs/Welcome.jpg);
+        background-repeat: no-repeat;
+    }
+}
+
 
 #about-are{
     background-color:#1C2945;
