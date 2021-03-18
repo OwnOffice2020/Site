@@ -150,7 +150,7 @@ body{
     color: #fff;
 }
 
-/* Time da pade SobreNós.html*/
+/* Time da page SobreNós.html*/
 
 .card-body{
     text-align: center;
@@ -616,4 +616,8 @@ textarea{
 .about-form{
     position: flex;
     margin-left: 27.5%;
+}
+
+.header-content{
+    margin-top: 370px;
 }
