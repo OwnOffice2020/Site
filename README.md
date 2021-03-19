@@ -1,7 +1,7 @@
 > # Bem Vindos a OwnOffice 
 >
-> ![foto](https://user-images.githubusercontent.com/65090609/109902550-5e4e2a00-7c79-11eb-9bbc-3e33c43a351a.png)
->
+><center><img src="https://user-images.githubusercontent.com/65090609/109902550-5e4e2a00-7c79-11eb-9bbc-3e33c43a351a.png"></center>
+>  
 > ## - _Descrição das funcinalidades:_
 >
 > - O site da **OwnOffice** se inicia a partir da index.html, onde encontrará os serviços que podemos disponibilizar para nossos usuários e qual é o **objetivo** do nosso projeto.
@@ -61,7 +61,7 @@
 > - Iniciar o git 
 > - Colocar em uma pasta que queira 
 > - Digitar "git clone HTTP_Adquirido"
-> - E já pode ser nosso site funcionando
+> - E já pode ver nosso site funcionando
 >
 >## - _Equipe web?_
 >
