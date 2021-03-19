@@ -2,7 +2,7 @@
 
 @media (orientation: landscape) and (min-width: 500px){
     body{
-        background-image: url(../../assets/imgs/Welcome.png);
+        background-image: url(../../assets/imgs/NavBar.png);
         background-position: center top;
         background-repeat: no-repeat;
     }
