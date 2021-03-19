@@ -1,6 +1,8 @@
 > # Bem Vindos a OwnOffice 
 >
-> ![foto](https://user-images.githubusercontent.com/65090609/109902550-5e4e2a00-7c79-11eb-9bbc-3e33c43a351a.png)
+> <div align="center">
+>  <img src="https://user-images.githubusercontent.com/65090609/109902550-5e4e2a00-7c79-11eb-9bbc-3e33c43a351a.png" alt="OwnOffice Logo">
+> </div>
 >
 > ## - _Descrição das funcinalidades:_
 >
