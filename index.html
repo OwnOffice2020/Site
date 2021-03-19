@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="src/Styles/responsive.css">
     <link rel="stylesheet" href="src/Styles/Geral.css">
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
@@ -165,7 +166,7 @@
               </li>
             </ul>
             
-            <form class="form-inline ">
+            <form class="form-inline">
               <i class="fa fa-search text-light text-font" aria-hidden="true" style="font-size: 22px;"></i> 
               <input type="search" class="ml-2 mr-2" placeholder="Buscar...">
               <input type="submit" value="Enviar" class="btn-1">
@@ -178,13 +179,21 @@
     <!-- Fim navbar -->
 
   <section id="empresa">
+    <header style="margin-left: 15px;">
+      <div class="text-light">
+        <h1 class="display-2 titletWelcome"> Bem vindo a OwnOffice ! </h1>
+        <p class="textWelcome"> Conheça nossos serviços e o que nós podemos fazer <br>
+          por você. São muitas oportunidades para seu <br> crescimento,  seja ele na 
+          carreira profissional <br> como com você mesmo. </p>
+      </div>
+    </header>
     <!-- Jumbotron -->
       <article id="informativo">
         <div class="jumbotron jumbotron-fuid" style="background-color: transparent;">
           <div class="container ">
             <div class="row">
               <div class="col-12 text-center">
-                <header>
+                <header class="header-content">
                   <h1 class="Title-main display-3 mb-5 text-O"> O que é o OwnOffice ? </h1>
                   <p class="lead"> O OwnOffice irá se tornar o principal modelo de trabalho para 43% das empresas brasileiras 
                     por conta do isolamento social, pois a partir de nossos serviços podemos contratar e vender atendimentos.
@@ -252,7 +261,7 @@
 
               </div>
             </div>
-
+            <div><img class="img-fluid full-width-img"> </div><!-- ajustar para texto não foto -->
           </div>
         </div>  
       </article>
