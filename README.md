@@ -1,7 +1,9 @@
 > # Bem Vindos a OwnOffice 
 >
-><center><img src="https://user-images.githubusercontent.com/65090609/109902550-5e4e2a00-7c79-11eb-9bbc-3e33c43a351a.png"></center>
->  
+> <div align="center">
+>  <img src="https://user-images.githubusercontent.com/65090609/109902550-5e4e2a00-7c79-11eb-9bbc-3e33c43a351a.png" alt="OwnOffice Logo">
+> </div>
+>
 > ## - _Descrição das funcinalidades:_
 >
 > - O site da **OwnOffice** se inicia a partir da index.html, onde encontrará os serviços que podemos disponibilizar para nossos usuários e qual é o **objetivo** do nosso projeto.
